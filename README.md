@@ -6,6 +6,7 @@
 
 사용자에게 편리함을 제공하는 앱을 만드는 것을 목표로 하고 있습니다. 
 
+![GitHub Contribution snake](https://raw.githubusercontent.com/hyh1014-y/hyh1014-y/output/github-contribution-grid-snake.svg)
 ---
 
 ## 🛠 Tech Stack
