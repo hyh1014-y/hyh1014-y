@@ -5,14 +5,22 @@ on:
     # 매일 자정(UTC 기준)에 실행
     - cron: "0 0 * * *"
   
-  # 수동으로 실행할 수 있게 해줌
+push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    
+    # [핵심] exit code 128 해결: 액션이 이미지를 저장할 수 있도록 '쓰기 권한' 부여
+    permissions:
+      contents: write
+      
     steps:
-      - uses: actions/checkout@v3
+      # Node.js 경고 해결: v3 -> v4로 업데이트
+      - uses: actions/checkout@v4
       
       - uses: Platane/snk@v3
         with:
@@ -21,7 +29,8 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
+      # Node.js 경고 해결: v3.1.0 -> v4로 업데이트
+      - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
