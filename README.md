@@ -11,7 +11,7 @@
 ## 🛠 Tech Stack
 
 ### Mobile & Language
-<img src="https://img.shields.io/badge/Kotlin-B125EA?style=for-the-badge&logo=kotlin&logoColor=white"> <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white">
+<img src="https://img.shields.io/badge/Kotlin-B125EA?style=for-the-badge&logo=kotlin&logoColor=white"> <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white">
 
 ### Network & API
 <img src="https://img.shields.io/badge/Retrofit2-111111?style=for-the-badge"> <img src="https://img.shields.io/badge/Kakao%20Maps%20API-FFCD00?style=for-the-badge&logo=kakao&logoColor=black"> <img src="https://img.shields.io/badge/ODsay%20API-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white"> 
